@@ -11,4 +11,4 @@
 
 <img width="593" alt="3" src="https://github.com/user-attachments/assets/5346d442-da67-4a86-9918-29a99c6f62ef">
 
-# 파일 업로드시 압축해제 후 사용
+> 파일 업로드시 압축해제 후 사용
