@@ -76,3 +76,6 @@ sudo docker run --runtime nvidia -it --rm --network host \
 
 
 
+# 10. Arduino 설치
+![Screenshot from 2024-11-21 21-50-47](https://github.com/user-attachments/assets/9e2a6a8a-df2c-4629-b5fa-2d9b8f6b4544)
+
