@@ -52,3 +52,27 @@ dli@dli-desktop:~/CSI-Camera$ python3 simple_camera.py
 ![Screenshot from 2024-11-14 21-27-46](https://github.com/user-attachments/assets/19d97c5a-f5a9-4220-a73b-1e375fba33b4)
 
 
+# 8. Docker 설치
+> 교육과정에 필요한 dir 추가
+> docker 다운로드
+sudo docker run --runtime nvidia -it --rm --network host \
+    --memory=500M --memory-swap=4G \
+    --volume ~/nvdli-data:/nvdli-nano/data \
+    --volume /tmp/argus_socket:/tmp/argus_socket \
+    --device /dev/video0 \
+    nvcr.io/nvidia/dli/dli-nano-ai:v2.0.2-r32.7.1kr
+> 메모리 부족을 해결하기 위한 SWAP 18GB 설치
+
+![Screenshot from 2024-11-21 20-32-30](https://github.com/user-attachments/assets/82804b63-9f26-422f-baee-c569153e3954)
+
+# 9. Docker를 통한 classification Juypter 이용
+> CSI Camera 오류로 USB Camera로 변경
+> 엄지 위 / 아래 각각 30개씩 train 데이터 카메라로 찍기
+> 결과는 밑의 사진
+
+![Screenshot from 2024-11-21 20-32-30](https://github.com/user-attachments/assets/d24dac0c-16c7-4ef7-a803-692feb295316)
+
+![Screenshot from 2024-11-21 20-59-13](https://github.com/user-attachments/assets/7067c297-37dc-4737-935c-09c040500716)
+
+
+
