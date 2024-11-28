@@ -83,3 +83,43 @@ sudo docker run --runtime nvidia -it --rm --network host \
 > arduino
 ![Screenshot from 2024-11-21 21-50-47](https://github.com/user-attachments/assets/9e2a6a8a-df2c-4629-b5fa-2d9b8f6b4544)
 
+# 11. Arduino basic, blink 활용
+![Screenshot from 2024-11-28 20-39-39](https://github.com/user-attachments/assets/5ca8fa9a-dff6-42ee-81b0-d7a4a152f586)
+
+# 12. Arduino grove dust sensor 활용
+int pin = 8;
+unsigned long duration;
+unsigned long starttime;
+unsigned long sampletime_ms = 30000;//sampe 30s ;
+unsigned long lowpulseoccupancy = 0;
+float ratio = 0;
+float concentration = 0;
+
+void setup() 
+{
+    Serial.begin(9600);
+    pinMode(pin,INPUT);
+    starttime = millis();//get the current time;
+}
+
+void loop() 
+{
+    duration = pulseIn(pin, LOW);
+    lowpulseoccupancy = lowpulseoccupancy+duration;
+
+    if ((millis()-starttime) > sampletime_ms)//if the sampel time == 30s
+    {
+        ratio = lowpulseoccupancy/(sampletime_ms*10.0);  // Integer percentage 0=>100
+        concentration = 1.1*pow(ratio,3)-3.8*pow(ratio,2)+520*ratio+0.62; // using spec sheet curve
+        Serial.print(lowpulseoccupancy);
+        Serial.print(",");
+        Serial.print(ratio);
+        Serial.print(",");
+        Serial.println(concentration);
+        lowpulseoccupancy = 0;
+        starttime = millis();
+    }
+}
+
+
+
