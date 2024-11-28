@@ -2,15 +2,15 @@ NVIDIA_jetson_DLI
 =================
 
 ## 1. jetson-nano-jpg 이미지 다운로드
-<img src="https://github.com/user-attachments/assets/56405bb4-c359-42ad-8da5-c0237e6be9f7" alt="이미지" width="60%"/>
-![image](https://github.com/user-attachments/assets/68da29f6-f73b-4301-ae2b-5adb6dd27b81)
+> <img src="https://github.com/user-attachments/assets/56405bb4-c359-42ad-8da5-c0237e6be9f7" alt="이미지" width="60%"/>
+> <img src="https://github.com/user-attachments/assets/68da29f6-f73b-4301-ae2b-5adb6dd27b81" alt="image" width="70%">
 
 > 이미지 다운로드하여 준비하기
 ***
 ## 2. SD card format
-> ![image](https://github.com/user-attachments/assets/3a1c3246-0f2d-4f49-8b32-a44827477ee4)
+> <img src="[https://github.com/user-attachments/assets/3a1c3246-0f2d-4f49-8b32-a44827477ee4]" alt="image" width="50%">
 > <img width="413" alt="1_SD카드 format" src="https://github.com/user-attachments/assets/e296ff5f-4bde-4fb5-ae36-1d81e5aab3b0">
-> ![390812961-75bd84a5-27ec-41f2-8ccb-6bb6228aee3e](https://github.com/user-attachments/assets/6836aa3c-17a8-4a18-8cfb-7f37bf5ff971)
+> <img src="https://github.com/user-attachments/assets/6836aa3c-17a8-4a18-8cfb-7f37bf5ff971" alt="image" width="120%">
 * 오른쪽 컴퓨터 데스크탑에 sd카드 넣기
 * SD Card Formatter로 포맷하기
 ***
@@ -31,13 +31,13 @@ NVIDIA_jetson_DLI
 
 * 젯봇에 마이크로 SD카드 넣기
 * HDML 선으로 컴퓨터와 연결하여 환경설정   
-> ![image](https://github.com/user-attachments/assets/f7850586-6f2c-4735-9889-021b51ed8f26)   
+> ![img scr="https://github.com/user-attachments/assets/f7850586-6f2c-4735-9889-021b51ed8f26" alt="image" width="60%"]
 * 초기 언어: Englsih로 설정
 * 와아파이 연결: aifrenz
 * Seoul 설정
 * dli로 유저 만들기 (name과 password 모두 dli로 설정)
-* 계속 진행하여 마무리   
-> ![image](https://github.com/user-attachments/assets/166d3870-7fd8-47c3-8d9f-648b2a5f23f7)
+* 계속 진행하여 마무리
+> [img scr="https://github.com/user-attachments/assets/166d3870-7fd8-47c3-8d9f-648b2a5f23f7" alt="image" width="60%"]
 * 싱글보드 컴퓨터 설정 완료
 
     * <한글 패치 설치하기>
@@ -62,7 +62,7 @@ NVIDIA_jetson_DLI
 >
 ***
 ## 7. jtop Nano 통해 정보 확인
-> ![image](https://github.com/user-attachments/assets/95a18ec8-d50d-4318-9874-8b5983f87eec)
+> [img scr="https://github.com/user-attachments/assets/95a18ec8-d50d-4318-9874-8b5983f87eec" alt="image" width="50%"]
 >    
     dli@dli-desktop:~$ reboot   
     dli@dli-desktop:~$ jtop
