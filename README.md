@@ -130,7 +130,8 @@ NVIDIA_jetson_DLI
 ## 13. Arduino grove dust sensor 활용
 > <img src="https://github.com/user-attachments/assets/daea19ed-be57-46dc-bcc9-6b49600c08a7" alt="image" width="50%">  
 > <img src="https://github.com/user-attachments/assets/dae7e18b-ee01-4941-bdc8-857479c5e38c" alt="image" width="50%">
-> ![image](https://github.com/user-attachments/assets/368cd62d-57e3-476b-a5c4-3dcbbcd1913f)
+> <img src="https://github.com/user-attachments/assets/dd82a3f4-5955-4dca-943b-f8c1c35b2477" alt="image" width="50%">
+
 
 
     int pin = 8;
