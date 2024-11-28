@@ -81,11 +81,11 @@ NVIDIA_jetson_DLI
 
 
 
-> <img src="https://github.com/user-attachments/assets/67d7c064-61fc-4f2b-8c32-6d23a553b23a" alt="카메라 오픈" width="60%">
+> <img src="https://github.com/user-attachments/assets/67d7c064-61fc-4f2b-8c32-6d23a553b23a" alt="카메라 오픈" width="80%">
 
-> <img src="https://github.com/user-attachments/assets/3e56c144-e4bc-48ad-9642-7a16b3847787" alt="Screenshot from 2024-11-14 21-03-09" width="60%">
+> <img src="https://github.com/user-attachments/assets/3e56c144-e4bc-48ad-9642-7a16b3847787" alt="Screenshot from 2024-11-14 21-03-09" width="80%">
 
-> <img src="https://github.com/user-attachments/assets/19d97c5a-f5a9-4220-a73b-1e375fba33b4" alt="Screenshot from 2024-11-14 21-27-46" width="60%">
+> <img src="https://github.com/user-attachments/assets/19d97c5a-f5a9-4220-a73b-1e375fba33b4" alt="Screenshot from 2024-11-14 21-27-46" width="80%">
 
 ***
 ## 9. Docker 설치
@@ -101,7 +101,7 @@ NVIDIA_jetson_DLI
 >
 * 메모리 부족을 해결하기 위한 SWAP 18GB 설치
 
-> <img src="https://github.com/user-attachments/assets/82804b63-9f26-422f-baee-c569153e3954" alt="Screenshot from 2024-11-21 20-32-30" width="400">
+> <img src="https://github.com/user-attachments/assets/82804b63-9f26-422f-baee-c569153e3954" alt="Screenshot from 2024-11-21 20-32-30" width="80%">
 
 ***
 ## 10. Docker를 통한 classification Juypter 이용
@@ -109,9 +109,9 @@ NVIDIA_jetson_DLI
 * 엄지 위 / 아래 각각 30개씩 train 데이터 카메라로 찍기
 > 결과는 밑의 사진
 
-> ![Screenshot from 2024-11-21 20-32-30](https://github.com/user-attachments/assets/d24dac0c-16c7-4ef7-a803-692feb295316)
+> <img src="https://github.com/user-attachments/assets/d24dac0c-16c7-4ef7-a803-692feb295316" alt="Screenshot from 2024-11-21 20-32-30" width="80%">
 
-> ![Screenshot from 2024-11-21 20-59-13](https://github.com/user-attachments/assets/7067c297-37dc-4737-935c-09c040500716)
+> <img src="https://github.com/user-attachments/assets/7067c297-37dc-4737-935c-09c040500716" alt="Screenshot from 2024-11-21 20-59-13" width="80%">
 
 ***
 
@@ -122,10 +122,10 @@ NVIDIA_jetson_DLI
     sudo apt-get install arduino
     arduino
 >
-> ![Screenshot from 2024-11-21 21-50-47](https://github.com/user-attachments/assets/9e2a6a8a-df2c-4629-b5fa-2d9b8f6b4544)
+> <img src="https://github.com/user-attachments/assets/9e2a6a8a-df2c-4629-b5fa-2d9b8f6b4544" alt="Screenshot from 2024-11-21 21-50-47" width="80%">
 ***
 ## 12. Arduino basic, blink 활용
-> ![Screenshot from 2024-11-28 20-39-39](https://github.com/user-attachments/assets/5ca8fa9a-dff6-42ee-81b0-d7a4a152f586)
+> <img src="https://github.com/user-attachments/assets/5ca8fa9a-dff6-42ee-81b0-d7a4a152f586" alt="Screenshot from 2024-11-28 20-39-39" width="80%">
 ***
 ## 13. Arduino grove dust sensor 활용
 > <img src="https://github.com/user-attachments/assets/daea19ed-be57-46dc-bcc9-6b49600c08a7" alt="image" width="50%">  
