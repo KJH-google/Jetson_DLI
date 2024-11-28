@@ -6,15 +6,14 @@ NVIDIA_jetson_DLI
 ![image](https://github.com/user-attachments/assets/68da29f6-f73b-4301-ae2b-5adb6dd27b81)
 
 > 이미지 다운로드하여 준비하기
-
+***
 ## 2. SD card format
 > ![image](https://github.com/user-attachments/assets/3a1c3246-0f2d-4f49-8b32-a44827477ee4)
 > <img width="413" alt="1_SD카드 format" src="https://github.com/user-attachments/assets/e296ff5f-4bde-4fb5-ae36-1d81e5aab3b0">
-> ![image](https://github.com/user-attachments/assets/7cf27ed2-64c7-453a-a4a8-093d593697af)
-> ![image](https://github.com/user-attachments/assets/75bd84a5-27ec-41f2-8ccb-6bb6228aee3e)
+> ![390812961-75bd84a5-27ec-41f2-8ccb-6bb6228aee3e](https://github.com/user-attachments/assets/6836aa3c-17a8-4a18-8cfb-7f37bf5ff971)
 * 오른쪽 컴퓨터 데스크탑에 sd카드 넣기
 * SD Card Formatter로 포맷하기
-
+***
 ## 3. balenaEtcher로 이미지 굽기
 
 > <img width="62" alt="4" src="https://github.com/user-attachments/assets/455a255d-3192-4d2d-a368-cb514a6b31c4">   
@@ -27,7 +26,7 @@ NVIDIA_jetson_DLI
 * uSD 에 Jetpack 4.6 이미지 굽기
 * flash 한 후 verifying 까지 마친 마이크로 SD카드 준비 완료
 
-
+***
 ## 4. NVDIA_jetson_DLI 환경설정
 
 * 젯봇에 마이크로 SD카드 넣기
@@ -49,11 +48,11 @@ NVIDIA_jetson_DLI
 >
 > 자세한 것은 <https://driz2le.tistory.com/253> 참조하여 진행
 
-
+***
 ## 5. 젯봇 완성하기
 * jetson nano에 연결 => 구운 SD카드, HDMI선(모니터와 연결), 쿨링팬, 와이파이 연결잭, 키보드, 마우스
 * POWER -> 5volt 규격 이용 반드시!!!
-
+***
 ## 6. 파이썬 설치
     dli@dli-desktop:~$ sudo apt install python3-pip
     do you want to continue ? Y
@@ -61,12 +60,13 @@ NVIDIA_jetson_DLI
 > 
 > 4.2.12 버젼으로 설치
 >
+***
 ## 7. jtop Nano 통해 정보 확인
 > ![image](https://github.com/user-attachments/assets/95a18ec8-d50d-4318-9874-8b5983f87eec)
 >    
     dli@dli-desktop:~$ reboot   
     dli@dli-desktop:~$ jtop
-
+***
 ## 8. CSI(USB) 카메라 설치
 
     dli@dli-desktop:~$  ls /dev/vi*
@@ -85,7 +85,7 @@ NVIDIA_jetson_DLI
 
 > ![Screenshot from 2024-11-14 21-27-46](https://github.com/user-attachments/assets/19d97c5a-f5a9-4220-a73b-1e375fba33b4)
 
-
+***
 ## 9. Docker 설치
 * 교육과정에 필요한 dir 추가   
 * docker 다운로드
@@ -100,7 +100,7 @@ NVIDIA_jetson_DLI
 * 메모리 부족을 해결하기 위한 SWAP 18GB 설치
 
 > ![Screenshot from 2024-11-21 20-32-30](https://github.com/user-attachments/assets/82804b63-9f26-422f-baee-c569153e3954)
-
+***
 ## 10. Docker를 통한 classification Juypter 이용
 * CSI Camera 오류로 USB Camera로 변경
 * 엄지 위 / 아래 각각 30개씩 train 데이터 카메라로 찍기
@@ -110,7 +110,7 @@ NVIDIA_jetson_DLI
 
 > ![Screenshot from 2024-11-21 20-59-13](https://github.com/user-attachments/assets/7067c297-37dc-4737-935c-09c040500716)
 
-
+***
 
 ## 11. Arduino 설치
 * Arduino 홈페이지에서 다운로드 패키지 받기
@@ -120,10 +120,10 @@ NVIDIA_jetson_DLI
     arduino
 >
 > ![Screenshot from 2024-11-21 21-50-47](https://github.com/user-attachments/assets/9e2a6a8a-df2c-4629-b5fa-2d9b8f6b4544)
-
+***
 ## 12. Arduino basic, blink 활용
 > ![Screenshot from 2024-11-28 20-39-39](https://github.com/user-attachments/assets/5ca8fa9a-dff6-42ee-81b0-d7a4a152f586)
-
+***
 ## 13. Arduino grove dust sensor 활용
 > ![image](https://github.com/user-attachments/assets/daea19ed-be57-46dc-bcc9-6b49600c08a7)   
 > ![image](https://github.com/user-attachments/assets/dae7e18b-ee01-4941-bdc8-857479c5e38c)   
