@@ -1,27 +1,28 @@
-## NVIDIA_jetson_DLI
-=========================
+NVIDIA_jetson_DLI
+=================
 
-# 1. jetson-nano-jpg 이미지 
+# 1. jetson-nano-jpg 이미지 다운로드
 ![이미지 다운로드](https://github.com/user-attachments/assets/56405bb4-c359-42ad-8da5-c0237e6be9f7)
 ![image](https://github.com/user-attachments/assets/68da29f6-f73b-4301-ae2b-5adb6dd27b81)
 
-> 다운로드하여 준비
+> 이미지 다운로드하여 준비하기
 
 # 2. SD card format
 ![image](https://github.com/user-attachments/assets/3a1c3246-0f2d-4f49-8b32-a44827477ee4)
 <img width="413" alt="1_SD카드 format" src="https://github.com/user-attachments/assets/e296ff5f-4bde-4fb5-ae36-1d81e5aab3b0">
 ![image](https://github.com/user-attachments/assets/7cf27ed2-64c7-453a-a4a8-093d593697af)
 ![image](https://github.com/user-attachments/assets/75bd84a5-27ec-41f2-8ccb-6bb6228aee3e)
-> 오른쪽 컴퓨터 데스크탑에 sd카드 넣기
-> SD Card Formatter로 포맷하기
+* 오른쪽 컴퓨터 데스크탑에 sd카드 넣기
+* SD Card Formatter로 포맷하기
 
 # 3. balenaEtcher로 이미지 굽기
 
-<img width="62" alt="4" src="https://github.com/user-attachments/assets/455a255d-3192-4d2d-a368-cb514a6b31c4">
+<img width="62" alt="4" src="https://github.com/user-attachments/assets/455a255d-3192-4d2d-a368-cb514a6b31c4">   
 > 프로그램 다운로드
-<img width="596" alt="2_" src="https://github.com/user-attachments/assets/bf5eadf3-d53c-4796-9317-5d2358483db3">
-<img width="593" alt="3" src="https://github.com/user-attachments/assets/5346d442-da67-4a86-9918-29a99c6f62ef">
-![image](https://github.com/user-attachments/assets/f2a6617f-9a65-45fe-b6b2-0bb3ee497a98)
+<img width="596" alt="2_" src="https://github.com/user-attachments/assets/bf5eadf3-d53c-4796-9317-5d2358483db3">   
+<img width="593" alt="3" src="https://github.com/user-attachments/assets/5346d442-da67-4a86-9918-29a99c6f62ef">   
+![image](https://github.com/user-attachments/assets/b9e40039-a7b6-4836-af32-e4f6c3528c19)
+
 > *파일 업로드시 압축해제 후 사용
 > uSD 에 Jetpack 4.6 이미지 굽기
 > flash 한 후 verifying 까지 마친 마이크로 SD카드 준비 완료
@@ -41,10 +42,10 @@
 > 싱글보드 컴퓨터 설정 완료
 
 > <한글 패치 설치하기>
-> sudo apt-get update
-> dli@dli-desktop:~$ sudo apt-get install fcitx-hangul
-> dli@dli-desktop:~$ im-config -n fcitx —> reboot
-> 자세한 것은 https://driz2le.tistory.com/253 참조하여 진행
+    sudo apt-get update
+    dli@dli-desktop:~$ sudo apt-get install fcitx-hangul
+    dli@dli-desktop:~$ im-config -n fcitx —> reboot
+    자세한 것은 <https://driz2le.tistory.com/253> 참조하여 진행
 
 
 # 5. 젯봇 완성하기
@@ -60,17 +61,17 @@
 >
 # 7. jtop Nano 통해 정보 확인
 ![image](https://github.com/user-attachments/assets/95a18ec8-d50d-4318-9874-8b5983f87eec)
-> dli@dli-desktop:~$ reboot
-> dli@dli-desktop:~$ jtop
+    dli@dli-desktop:~$ reboot
+    dli@dli-desktop:~$ jtop
 
 # 8. CSI(USB) 카메라 설치
 
-> dli@dli-desktop:~$  ls /dev/vi*
+    dli@dli-desktop:~$  ls /dev/vi*
 
-우리에게 맞는 코드
-git clone  https://github.com/JetsonHacksNano/CSI-Camera.git
-dli@dli-desktop:~/CSI-Camera$ ls
-dli@dli-desktop:~/CSI-Camera$ python3 simple_camera.py 
+>우리에게 맞는 코드   
+    git clone  https://github.com/JetsonHacksNano/CSI-Camera.git
+    dli@dli-desktop:~/CSI-Camera$ ls
+    dli@dli-desktop:~/CSI-Camera$ python3 simple_camera.py 
 
 
 
@@ -82,14 +83,14 @@ dli@dli-desktop:~/CSI-Camera$ python3 simple_camera.py
 
 
 # 9. Docker 설치
-> 교육과정에 필요한 dir 추가
+> 교육과정에 필요한 dir 추가   
 > docker 다운로드
-sudo docker run --runtime nvidia -it --rm --network host \
-    --memory=500M --memory-swap=4G \
-    --volume ~/nvdli-data:/nvdli-nano/data \
-    --volume /tmp/argus_socket:/tmp/argus_socket \
-    --device /dev/video0 \
-    nvcr.io/nvidia/dli/dli-nano-ai:v2.0.2-r32.7.1kr
+    sudo docker run --runtime nvidia -it --rm --network host \
+        --memory=500M --memory-swap=4G \
+        --volume ~/nvdli-data:/nvdli-nano/data \
+        --volume /tmp/argus_socket:/tmp/argus_socket \
+        --device /dev/video0 \
+        nvcr.io/nvidia/dli/dli-nano-ai:v2.0.2-r32.7.1kr
 > 메모리 부족을 해결하기 위한 SWAP 18GB 설치
 
 ![Screenshot from 2024-11-21 20-32-30](https://github.com/user-attachments/assets/82804b63-9f26-422f-baee-c569153e3954)
@@ -107,18 +108,20 @@ sudo docker run --runtime nvidia -it --rm --network host \
 
 # 10. Arduino 설치
 > Arduino 홈페이지에서 다운로드 패키지 받기
-> sudo apt-get update
-> sudo apt-get install arduino
-> arduino
+    sudo apt-get update
+    sudo apt-get install arduino
+    arduino
 ![Screenshot from 2024-11-21 21-50-47](https://github.com/user-attachments/assets/9e2a6a8a-df2c-4629-b5fa-2d9b8f6b4544)
 
 # 11. Arduino basic, blink 활용
 ![Screenshot from 2024-11-28 20-39-39](https://github.com/user-attachments/assets/5ca8fa9a-dff6-42ee-81b0-d7a4a152f586)
 
 # 12. Arduino grove dust sensor 활용
-![image](https://github.com/user-attachments/assets/daea19ed-be57-46dc-bcc9-6b49600c08a7)
-![image](https://github.com/user-attachments/assets/dae7e18b-ee01-4941-bdc8-857479c5e38c)
+![image](https://github.com/user-attachments/assets/daea19ed-be57-46dc-bcc9-6b49600c08a7)   
+![image](https://github.com/user-attachments/assets/dae7e18b-ee01-4941-bdc8-857479c5e38c)   
+![image](https://github.com/user-attachments/assets/368cd62d-57e3-476b-a5c4-3dcbbcd1913f)
 
+'''
 int pin = 8;
 unsigned long duration;
 unsigned long starttime;
@@ -126,7 +129,7 @@ unsigned long sampletime_ms = 30000;//sampe 30s ;
 unsigned long lowpulseoccupancy = 0;
 float ratio = 0;
 float concentration = 0;
-
+ 
 void setup() 
 {
     Serial.begin(9600);
@@ -152,10 +155,10 @@ void loop()
         starttime = millis();
     }
 }
+'''
 
 
-
--------------------------------------------------
+'''
 int pin = 8;
 unsigned long duration;
 unsigned long starttime;
@@ -214,12 +217,11 @@ void loop()
         starttime = millis();
     }
 }
+'''
 
 
 
-
---------------------------------------------------
-
+'''
 int pin = 8;
 unsigned long duration;
 unsigned long starttime;
@@ -280,3 +282,4 @@ void loop()
         starttime = millis();
     }
 }
+'''
