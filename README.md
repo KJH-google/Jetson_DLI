@@ -10,9 +10,9 @@ NVIDIA_jetson_DLI
 ## 2. SD card format
 > <img src="https://github.com/user-attachments/assets/3a1c3246-0f2d-4f49-8b32-a44827477ee4" alt="image" width="40%">      
 >
-> <img width="20%" alt="1_SD카드 format" src="https://github.com/user-attachments/assets/e296ff5f-4bde-4fb5-ae36-1d81e5aab3b0">
+> <img width="40%" alt="1_SD카드 format" src="https://github.com/user-attachments/assets/e296ff5f-4bde-4fb5-ae36-1d81e5aab3b0">
 >
-> <img src="https://github.com/user-attachments/assets/6836aa3c-17a8-4a18-8cfb-7f37bf5ff971" alt="image" width="30%">
+> <img src="https://github.com/user-attachments/assets/6836aa3c-17a8-4a18-8cfb-7f37bf5ff971" alt="image" width="20%">
 * 오른쪽 컴퓨터 데스크탑에 sd카드 넣기
 * SD Card Formatter로 포맷하기
 ***
