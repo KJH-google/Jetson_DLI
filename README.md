@@ -126,9 +126,9 @@ NVIDIA_jetson_DLI
 > <img src="https://github.com/user-attachments/assets/5ca8fa9a-dff6-42ee-81b0-d7a4a152f586" alt="Screenshot from 2024-11-28 20-39-39" width="80%">
 ***
 ## 13. Arduino grove dust sensor 활용
-> <img src="https://github.com/user-attachments/assets/daea19ed-be57-46dc-bcc9-6b49600c08a7" alt="image" width="50%">  
-> <img src="https://github.com/user-attachments/assets/dae7e18b-ee01-4941-bdc8-857479c5e38c" alt="image" width="50%">
-> <img src="https://github.com/user-attachments/assets/9cce4dca-f054-43bf-a0af-6e85105b622f" alt="390825388-368cd62d-57e3-476b-a5c4-3dcbbcd1913f" width="50%">
+> <img src="https://github.com/user-attachments/assets/daea19ed-be57-46dc-bcc9-6b49600c08a7" alt="image" width="47%">  
+> <img src="https://github.com/user-attachments/assets/dae7e18b-ee01-4941-bdc8-857479c5e38c" alt="image" width="47%">
+> <img src="https://github.com/user-attachments/assets/9cce4dca-f054-43bf-a0af-6e85105b622f" alt="390825388-368cd62d-57e3-476b-a5c4-3dcbbcd1913f" width="80%">
 
 
 
