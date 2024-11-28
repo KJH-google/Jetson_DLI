@@ -128,6 +128,7 @@ NVIDIA_jetson_DLI
 ## 13. Arduino grove dust sensor 활용
 > <img src="https://github.com/user-attachments/assets/daea19ed-be57-46dc-bcc9-6b49600c08a7" alt="image" width="47%">  
 > <img src="https://github.com/user-attachments/assets/dae7e18b-ee01-4941-bdc8-857479c5e38c" alt="image" width="47%">
+* 아두이노(더스트 센서)를 젯봇에 연결하여 조립
 > <img src="https://github.com/user-attachments/assets/9cce4dca-f054-43bf-a0af-6e85105b622f" alt="390825388-368cd62d-57e3-476b-a5c4-3dcbbcd1913f" width="80%">
 
 
