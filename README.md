@@ -1,30 +1,50 @@
 ## NVIDIA_jetson_DLI
 =========================
-# 1. jetson-nano-jpg 이미지 다운로드
+
+# 1. jetson-nano-jpg 이미지 
+![이미지 다운로드](https://github.com/user-attachments/assets/56405bb4-c359-42ad-8da5-c0237e6be9f7)
+![image](https://github.com/user-attachments/assets/68da29f6-f73b-4301-ae2b-5adb6dd27b81)
+
+> 다운로드하여 준비
+
 # 2. SD card format
+![image](https://github.com/user-attachments/assets/3a1c3246-0f2d-4f49-8b32-a44827477ee4)
 <img width="413" alt="1_SD카드 format" src="https://github.com/user-attachments/assets/e296ff5f-4bde-4fb5-ae36-1d81e5aab3b0">
+![image](https://github.com/user-attachments/assets/7cf27ed2-64c7-453a-a4a8-093d593697af)
+![image](https://github.com/user-attachments/assets/75bd84a5-27ec-41f2-8ccb-6bb6228aee3e)
+> 오른쪽 컴퓨터 데스크탑에 sd카드 넣기
+> SD Card Formatter로 포맷하기
 
 # 3. balenaEtcher로 이미지 굽기
 
 <img width="62" alt="4" src="https://github.com/user-attachments/assets/455a255d-3192-4d2d-a368-cb514a6b31c4">
+> 프로그램 다운로드
 <img width="596" alt="2_" src="https://github.com/user-attachments/assets/bf5eadf3-d53c-4796-9317-5d2358483db3">
-
 <img width="593" alt="3" src="https://github.com/user-attachments/assets/5346d442-da67-4a86-9918-29a99c6f62ef">
+![image](https://github.com/user-attachments/assets/f2a6617f-9a65-45fe-b6b2-0bb3ee497a98)
+> *파일 업로드시 압축해제 후 사용
+> uSD 에 Jetpack 4.6 이미지 굽기
+> flash 한 후 verifying 까지 마친 마이크로 SD카드 준비 완료
 
-> 파일 업로드시 압축해제 후 사용
 
 # 4. NVDIA_jetson_DLI 환경설정
+
+> 젯봇에 마이크로 SD카드 넣기
+> HDML 선으로 컴퓨터와 연결하여 환경설정  
+> ![image](https://github.com/user-attachments/assets/f7850586-6f2c-4735-9889-021b51ed8f26)
 > 초기 언어: Englsih로 설정
 > 와아파이 연결: aifrenz
 > Seoul 설정
-> dli로 유저 만들기
+> dli로 유저 만들기 (name과 password 모두 dli로 설정)
 > 계속 진행하여 마무리
+> ![image](https://github.com/user-attachments/assets/166d3870-7fd8-47c3-8d9f-648b2a5f23f7)
+> 싱글보드 컴퓨터 설정 완료
 
-> 한글 패치 설치
+> <한글 패치 설치하기>
 > sudo apt-get update
 > dli@dli-desktop:~$ sudo apt-get install fcitx-hangul
 > dli@dli-desktop:~$ im-config -n fcitx —> reboot
-> 자세한 것은 https://driz2le.tistory.com/253 참조
+> 자세한 것은 https://driz2le.tistory.com/253 참조하여 진행
 
 
 # 5. 젯봇 완성하기
@@ -32,11 +52,20 @@
 > POWER -> 5volt 규격 이용 반드시!!!
 
 # 6. 파이썬 설치
-> 4.2.12 버젼
+    dli@dli-desktop:~$ sudo apt install python3-pip
+    do you want to continue ? Y
+    dli@dli-desktop:~$  sudo -H pip3 install -U jetson-stats
+> 
+> 4.2.12 버젼으로 설치
+>
+# 7. jtop Nano 통해 정보 확인
+![image](https://github.com/user-attachments/assets/95a18ec8-d50d-4318-9874-8b5983f87eec)
+> dli@dli-desktop:~$ reboot
+> dli@dli-desktop:~$ jtop
 
-# 7. CSI(USB) 카메라 설치
+# 8. CSI(USB) 카메라 설치
 
-
+> dli@dli-desktop:~$  ls /dev/vi*
 
 우리에게 맞는 코드
 git clone  https://github.com/JetsonHacksNano/CSI-Camera.git
@@ -52,7 +81,7 @@ dli@dli-desktop:~/CSI-Camera$ python3 simple_camera.py
 ![Screenshot from 2024-11-14 21-27-46](https://github.com/user-attachments/assets/19d97c5a-f5a9-4220-a73b-1e375fba33b4)
 
 
-# 8. Docker 설치
+# 9. Docker 설치
 > 교육과정에 필요한 dir 추가
 > docker 다운로드
 sudo docker run --runtime nvidia -it --rm --network host \
@@ -87,6 +116,9 @@ sudo docker run --runtime nvidia -it --rm --network host \
 ![Screenshot from 2024-11-28 20-39-39](https://github.com/user-attachments/assets/5ca8fa9a-dff6-42ee-81b0-d7a4a152f586)
 
 # 12. Arduino grove dust sensor 활용
+![image](https://github.com/user-attachments/assets/daea19ed-be57-46dc-bcc9-6b49600c08a7)
+![image](https://github.com/user-attachments/assets/dae7e18b-ee01-4941-bdc8-857479c5e38c)
+
 int pin = 8;
 unsigned long duration;
 unsigned long starttime;
