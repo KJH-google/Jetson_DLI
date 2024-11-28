@@ -77,5 +77,9 @@ sudo docker run --runtime nvidia -it --rm --network host \
 
 
 # 10. Arduino 설치
+> Arduino 홈페이지에서 다운로드 패키지 받기
+> sudo apt-get update
+> sudo apt-get install arduino
+> arduino
 ![Screenshot from 2024-11-21 21-50-47](https://github.com/user-attachments/assets/9e2a6a8a-df2c-4629-b5fa-2d9b8f6b4544)
 
