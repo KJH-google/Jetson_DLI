@@ -2,7 +2,7 @@ NVIDIA_jetson_DLI
 =================
 
 ## 1. jetson-nano-jpg 이미지 다운로드
-![이미지 다운로드](https://github.com/user-attachments/assets/56405bb4-c359-42ad-8da5-c0237e6be9f7)
+<img src="https://github.com/user-attachments/assets/56405bb4-c359-42ad-8da5-c0237e6be9f7" alt="이미지" width="60%"/>
 ![image](https://github.com/user-attachments/assets/68da29f6-f73b-4301-ae2b-5adb6dd27b81)
 
 > 이미지 다운로드하여 준비하기
