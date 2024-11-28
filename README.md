@@ -33,13 +33,13 @@ NVIDIA_jetson_DLI
 
 * 젯봇에 마이크로 SD카드 넣기
 * HDML 선으로 컴퓨터와 연결하여 환경설정   
-> ![img scr="https://github.com/user-attachments/assets/f7850586-6f2c-4735-9889-021b51ed8f26" alt="image" width="60%"]
+> <img src="https://github.com/user-attachments/assets/f7850586-6f2c-4735-9889-021b51ed8f26" alt="image" width="60%">
 * 초기 언어: Englsih로 설정
 * 와아파이 연결: aifrenz
 * Seoul 설정
 * dli로 유저 만들기 (name과 password 모두 dli로 설정)
 * 계속 진행하여 마무리
-> [img scr="https://github.com/user-attachments/assets/166d3870-7fd8-47c3-8d9f-648b2a5f23f7" alt="image" width="60%"]
+> <img src="https://github.com/user-attachments/assets/166d3870-7fd8-47c3-8d9f-648b2a5f23f7" alt="image" width="60%">
 * 싱글보드 컴퓨터 설정 완료
 
     * <한글 패치 설치하기>
