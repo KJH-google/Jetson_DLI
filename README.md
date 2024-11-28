@@ -76,17 +76,17 @@ NVIDIA_jetson_DLI
     git clone  https://github.com/JetsonHacksNano/CSI-Camera.git
     dli@dli-desktop:~/CSI-Camera$ ls
     dli@dli-desktop:~/CSI-Camera$ python3 simple_camera.py   
->우리에게 맞는 코드 
+* 우리에게 맞는 코드 
 
 
 
 
 > <img src="https://github.com/user-attachments/assets/67d7c064-61fc-4f2b-8c32-6d23a553b23a" alt="카메라 오픈" width="80%">
-
+* 카메라 오픈
 > <img src="https://github.com/user-attachments/assets/3e56c144-e4bc-48ad-9642-7a16b3847787" alt="Screenshot from 2024-11-14 21-03-09" width="80%">
-
+* 얼굴 정상 인식
 > <img src="https://github.com/user-attachments/assets/19d97c5a-f5a9-4220-a73b-1e375fba33b4" alt="Screenshot from 2024-11-14 21-27-46" width="80%">
-
+* 이ㅣ
 ***
 ## 9. Docker 설치
 * 교육과정에 필요한 dir 추가   
