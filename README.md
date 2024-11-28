@@ -64,7 +64,7 @@ NVIDIA_jetson_DLI
 >
 ***
 ## 7. jtop Nano 통해 정보 확인
-> [img scr="https://github.com/user-attachments/assets/95a18ec8-d50d-4318-9874-8b5983f87eec" alt="image" width="50%"]
+> <img src="https://github.com/user-attachments/assets/95a18ec8-d50d-4318-9874-8b5983f87eec" alt="image" width="50%">
 >    
     dli@dli-desktop:~$ reboot   
     dli@dli-desktop:~$ jtop
@@ -81,11 +81,11 @@ NVIDIA_jetson_DLI
 
 
 
-> ![카메라 오픈](https://github.com/user-attachments/assets/67d7c064-61fc-4f2b-8c32-6d23a553b23a)
+> <img src="https://github.com/user-attachments/assets/67d7c064-61fc-4f2b-8c32-6d23a553b23a" alt="카메라 오픈" width="60%">
 
-> ![Screenshot from 2024-11-14 21-03-09](https://github.com/user-attachments/assets/3e56c144-e4bc-48ad-9642-7a16b3847787)
+> <img src="https://github.com/user-attachments/assets/3e56c144-e4bc-48ad-9642-7a16b3847787" alt="Screenshot from 2024-11-14 21-03-09" width="60%">
 
-> ![Screenshot from 2024-11-14 21-27-46](https://github.com/user-attachments/assets/19d97c5a-f5a9-4220-a73b-1e375fba33b4)
+> <img src="https://github.com/user-attachments/assets/19d97c5a-f5a9-4220-a73b-1e375fba33b4" alt="Screenshot from 2024-11-14 21-27-46" width="60%">
 
 ***
 ## 9. Docker 설치
@@ -101,7 +101,8 @@ NVIDIA_jetson_DLI
 >
 * 메모리 부족을 해결하기 위한 SWAP 18GB 설치
 
-> ![Screenshot from 2024-11-21 20-32-30](https://github.com/user-attachments/assets/82804b63-9f26-422f-baee-c569153e3954)
+> <img src="https://github.com/user-attachments/assets/82804b63-9f26-422f-baee-c569153e3954" alt="Screenshot from 2024-11-21 20-32-30" width="400">
+
 ***
 ## 10. Docker를 통한 classification Juypter 이용
 * CSI Camera 오류로 USB Camera로 변경
@@ -127,8 +128,8 @@ NVIDIA_jetson_DLI
 > ![Screenshot from 2024-11-28 20-39-39](https://github.com/user-attachments/assets/5ca8fa9a-dff6-42ee-81b0-d7a4a152f586)
 ***
 ## 13. Arduino grove dust sensor 활용
-> ![image](https://github.com/user-attachments/assets/daea19ed-be57-46dc-bcc9-6b49600c08a7)   
-> ![image](https://github.com/user-attachments/assets/dae7e18b-ee01-4941-bdc8-857479c5e38c)   
+> <img src="https://github.com/user-attachments/assets/daea19ed-be57-46dc-bcc9-6b49600c08a7" alt="image" width="50%">  
+> <img src="https://github.com/user-attachments/assets/dae7e18b-ee01-4941-bdc8-857479c5e38c" alt="image" width="50%">
 > ![image](https://github.com/user-attachments/assets/368cd62d-57e3-476b-a5c4-3dcbbcd1913f)
 
 
