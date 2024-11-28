@@ -131,6 +131,9 @@ NVIDIA_jetson_DLI
 > <img src="https://github.com/user-attachments/assets/daea19ed-be57-46dc-bcc9-6b49600c08a7" alt="image" width="50%">  
 > <img src="https://github.com/user-attachments/assets/dae7e18b-ee01-4941-bdc8-857479c5e38c" alt="image" width="50%">
 > <img src="https://github.com/user-attachments/assets/dd82a3f4-5955-4dca-943b-f8c1c35b2477" alt="image" width="50%">
+> <img src="https://github.com/user-attachments/assets/9cce4dca-f054-43bf-a0af-6e85105b622f" alt="390825388-368cd62d-57e3-476b-a5c4-3dcbbcd1913f" width="50%">
+
+
 
 
 
