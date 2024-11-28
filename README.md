@@ -86,7 +86,7 @@ NVIDIA_jetson_DLI
 > <img src="https://github.com/user-attachments/assets/3e56c144-e4bc-48ad-9642-7a16b3847787" alt="Screenshot from 2024-11-14 21-03-09" width="80%">
 * 얼굴 정상 인식
 > <img src="https://github.com/user-attachments/assets/19d97c5a-f5a9-4220-a73b-1e375fba33b4" alt="Screenshot from 2024-11-14 21-27-46" width="80%">
-* 이ㅣ
+* 이미지팩 다운로드
 ***
 ## 9. Docker 설치
 * 교육과정에 필요한 dir 추가   
@@ -100,8 +100,6 @@ NVIDIA_jetson_DLI
         nvcr.io/nvidia/dli/dli-nano-ai:v2.0.2-r32.7.1kr
 >
 * 메모리 부족을 해결하기 위한 SWAP 18GB 설치
-
-> <img src="https://github.com/user-attachments/assets/82804b63-9f26-422f-baee-c569153e3954" alt="Screenshot from 2024-11-21 20-32-30" width="80%">
 
 ***
 ## 10. Docker를 통한 classification Juypter 이용
