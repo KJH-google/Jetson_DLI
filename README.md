@@ -299,30 +299,4 @@ NVIDIA_jetson_DLI
 
 
 
-const int MQ9_AOUT_PIN = A0; // MQ-9의 AOUT 핀이 연결된 아날로그 핀
-float sensorValue;           // 센서 출력 값
 
-void setup() {
-  Serial.begin(9600); // 시리얼 통신 시작
-  pinMode(MQ9_AOUT_PIN, INPUT); // MQ-9 핀을 입력으로 설정
-}
-
-void loop() {
-  // 아날로그 값 읽기
-  sensorValue = analogRead(MQ9_AOUT_PIN);
-
-  // 센서 값 변환 (0~1023 → 가스 농도)
-  float voltage = sensorValue * (5.0 / 1023.0); // 5V 기준 전압 변환
-  float co_concentration = voltage * 100;      // 임의 농도 계산 (보정 필요)
-
-  // 시리얼 모니터에 출력
-  Serial.print("Sensor Value: ");
-  Serial.print(sensorValue);
-  Serial.print(" | Voltage: ");
-  Serial.print(voltage);
-  Serial.print(" V | CO Concentration: ");
-  Serial.print(co_concentration);
-  Serial.println(" ppm"); // ppm 단위로 출력 (보정된 농도)
-
-  delay(1000); // 1초 간격으로 업데이트
-}
